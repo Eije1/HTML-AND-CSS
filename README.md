@@ -5,9 +5,11 @@ A clean, educational implementation showcasing CSS Box Model fundamentals with a
 
 ## Repository Structure
 
-/
+
 ├── index.html # Semantic HTML structure with content sections
+
 ├── styles.css # Complete CSS with Box Model implementation
+
 └── README.md # Project documentation
 
 
