@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model - Eije Oloche Celestine</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>CSS Box Model Demonstration</h1>
+        <p>Understanding the CSS Box Model, Spacing, and Layout</p>
+        <p class="author">By Eije Oloche Celestine</p>
+      </header>
+
+      <section class="box-model-demo">
+        <h2>The CSS Box Model</h2>
+        <p>
+          The CSS box model is a fundamental concept that describes how elements
+          are structured and spaced on a web page. Every element is represented
+          as a rectangular box with content, padding, borders, and margins.
+        </p>
+
+        <div class="content-box">
+          <h3>Content-Box (Default)</h3>
+          <p>
+            Width/height set the content size. Padding and border are added to
+            the total dimensions.
+          </p>
+          <p>
+            Total width:
+            <code>width + padding-left/right + border-left/right</code>
+          </p>
+        </div>
+
+        <div class="border-box">
+          <h3>Border-Box</h3>
+          <p>
+            Width/height set the total size including padding and border.
+            Content size is calculated automatically.
+          </p>
+          <p>Total width: <code>width</code> (includes padding and border)</p>
+        </div>
+      </section>
+
+      <section class="spacing-demo">
+        <h2>Spacing with Margin and Padding</h2>
+        <p>
+          Margin creates space outside an element's border, while padding
+          creates space inside the border.
+        </p>
+
+        <div class="spacing-box">
+          <p>This element has generous padding and margin applied.</p>
+          <p>
+            Padding creates space inside the border, while margin creates space
+            outside.
+          </p>
+        </div>
+
+        <p>
+          Notice how the margin pushes other elements away, while padding keeps
+          the content away from the borders.
+        </p>
+      </section>
+
+      <section>
+        <h2>Navigation Styling</h2>
+        <p>
+          Navigation menus demonstrate the use of padding for clickable areas
+          and margin for spacing between items.
+        </p>
+
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section>
+        <h2>Card Layouts</h2>
+        <p>
+          Cards are a popular UI pattern that make good use of padding, margins,
+          and borders.
+        </p>
+
+        <div class="card-container">
+          <div class="card">
+            <div class="card-header">Box Model</div>
+            <div class="card-body">
+              <h3>Content Box</h3>
+              <p>
+                This card demonstrates proper use of padding and margins. The
+                content is well-spaced and readable.
+              </p>
+              <p>Notice the subtle shadow that gives depth to the card.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">CSS Properties</div>
+            <div class="card-body">
+              <h3>Border Box</h3>
+              <p>
+                Cards are great for organizing information in a digestible
+                format.
+              </p>
+              <p>
+                Padding inside the card ensures content doesn't touch the edges.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="button secondary">Details</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">Spacing</div>
+            <div class="card-body">
+              <h3>Margin & Padding</h3>
+              <p>Using consistent spacing creates a harmonious layout.</p>
+              <p>
+                Margin between cards prevents them from touching each other.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="button">Explore</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlight">
+        <h2>Box Model in Action</h2>
+        <p>
+          This highlighted section demonstrates how padding creates space inside
+          the element, while the margin separates it from other content.
+        </p>
+
+        <div class="box">
+          <p>This is a simple box with left border, padding, and margin.</p>
+        </div>
+
+        <div class="box">
+          <p>
+            Another box with the same styling. Notice the consistent spacing
+            between elements.
+          </p>
+        </div>
+
+        <div class="box">
+          <p>
+            The margin-bottom on each box creates vertical rhythm in the layout.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Button Styling</h2>
+        <p>
+          Buttons make use of padding for size, margin for spacing, and
+          border-radius for rounded corners.
+        </p>
+
+        <a href="#" class="button">Primary Button</a>
+        <a href="#" class="button secondary">Secondary Button</a>
+        <a href="#" class="button">Another Button</a>
+
+        <p>
+          Button states like :hover can change appearance to provide feedback to
+          users.
+        </p>
+      </section>
+
+      <div class="footer">
+        <p>CSS Box Model Demonstration &copy; 2023</p>
+        <p>
+          Created by Eije Oloche Celestine - No JavaScript or external libraries
+          used
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
