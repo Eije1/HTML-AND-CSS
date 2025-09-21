@@ -1,4 +1,3 @@
-/* Reset default browser styles */
 * {
     margin: 0;
     padding: 0;
@@ -272,4 +271,5 @@ code {
     h2 {
         font-size: 1.7rem;
     }
+
 }
